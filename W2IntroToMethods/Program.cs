@@ -52,6 +52,23 @@
 
             PrintArray(arr);
             PrintArray(3, 45, 5, 6, 7, 8, 8, 8, 7, 6, 5, 45, 4);
+
+
+            string str = "hello, ";
+            str = str.TrimEnd(' ', ',');
+            Console.WriteLine("\n\nstr = " + str);
+
+
+            PersonInfo("John", 32);
+            PersonInfo(name: "John", age: 32);
+            //PersonInfo(32, "John");
+            PersonInfo(age: 32, name: "John");
+        }
+
+
+        static void PersonInfo(string name, int age)
+        {
+            // method body
         }
 
 
